@@ -1,0 +1,520 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    width: 100vw;
+    height: auto;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 71px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+
+.site-header img {
+    margin-left: 1.2px;
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    flex: 0 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+nav a {
+    margin: 0 21px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #e6e6e6;
+    min-height: 744px;
+    border-radius: 140px;
+    margin-bottom: 136px;
+    flex-wrap: wrap;
+}
+
+
+.find {
+    margin-bottom: 425px;
+}
+
+.find input{
+    width: 870px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.find a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #202020;
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.image-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-info img {
+    width: 410px;
+    height: 343px;
+    border-radius: 40px;
+    margin: 24px 22px;
+}
+
+.slider {
+    margin: 70px 0;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.slider img {
+    border-radius: 40px;
+    width: 750px;
+    height: 530px;
+}
+
+.description {
+    width: 500px;
+}
+
+.description h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+.button-list {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-list a{
+    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    height: 480px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    align-items: center;
+}
+
+.login input {
+    width: 410px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.login a{
+    margin: 100px 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    display: block;
+    width: 140px;
+    height: 58px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    align-self: end;
+}
+
+.about {
+    height: 550px;
+    max-width: 550px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.container-video {
+    background-color: #D9D9D9;
+    width: 650px;
+    height: 600px;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 510px;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.card img {
+    border-radius: 30px;
+    width: 350px;
+    height: 310px;
+}
+
+
+.card a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    background-color: #D9D9D9;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translate(0, -10px);
+}
+
+.card p {
+    font-size: 20px;
+    color: rgb(183, 183, 183);
+}
+
+.subscribe {
+    background-color: #D9D9D9;
+    height: 350px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe input[type="email"]{
+    width: 385px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.subscribe a {
+    margin-top: 150px;
+    text-decoration: none;
+    display: inline-block;
+    width: 133px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #202020;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+.feedback {
+    width: 550px;
+    height: 300px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+}
+
+.feedback-rating{
+    color: #ffcd37;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.feedback h2 {
+    margin: 20px;
+}
+
+.feedback p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.site-footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #D9D9D9;
+    width: 100vw;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-footer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.site-footer a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+}
+
+.site-footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.rating {
+    color: #ffcd37;
+}
+@media (max-width: 796px) {
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .site-header img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .site-header nav {
+        flex-direction: column;
+    }
+
+    .site-header nav a {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .find input {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .find a {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .image-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-info img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider img {
+        width: 100%;
+        height: auto;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .description h2 {
+        font-size: 25px;
+    }
+
+    .button-list {
+        width: 100%;
+    }
+
+    .button-list a {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .login {
+        width: 90%;
+        height: auto;
+        margin: 0 auto 40px auto
+    }
+
+    .login input {
+        width: 100%;
+        height: 45px;
+        font-size: 18px;
+    }
+    .login a {
+    margin: 40px auto 0 auto;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    }
+
+    .about {
+        width: 90%;
+        height: auto;
+        padding: 30px;
+        margin: 20px auto;
+    }
+
+    .container-video {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .subscribe {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .subscribe input[type="email"] {
+        width: 100%;
+        height: 40px;
+    }
+
+    .subscribe a {
+        width: 100%;
+        margin-top: 20px;
+        height: 44px;
+        line-height: 44px;
+    }
+
+    .feedback {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .site-footer img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .site-footer nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .site-footer a {
+        font-size: 14px;
+    }
+        
+}
+
+@media (max-width: 480px) {
+    .site-header nav a {
+    font-size: 16px;
+    margin: 8px 0;
+    }
+
+    .find input, .find a {
+        font-size: 16px;
+    }
+
+    .description h2 {
+        font-size: 22px;
+    }
+
+    .description p, .button-list a, .login input, .login a, .about p, .feedback p {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+}
